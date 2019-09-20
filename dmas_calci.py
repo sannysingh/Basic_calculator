@@ -1,15 +1,11 @@
 def add(a,b):
     return a + b
-
 def substract(a,b):
     return a - b
-
 def multiply(a,b):
     return a * b
-
 def divide(a,b):
     return a / b
-
 def factorial(a):
     return 1 if (a==1 or a==0) else a * factorial(a - 1)
 
@@ -19,18 +15,12 @@ def main():
         x=float(input('Tell me your 1st number: '))
         y=float(input('Tell me your 2nd number: '))
         z=add(x,y)
-        
         print('After adding '+str(x)+' and '+str(y)+', We get '+ str(z))
-        
-
     elif d==2:
         x=float(input('Tell me your 1st number: '))
         y=float(input('Tell me your 2nd number: '))
         z=substract(x,y)
-        
         print('After substracting '+ str(x)+' and'+str(y)+', We get '+str(z))
-        
-        
     elif d==3:
         x=float(input('Tell me your 1st number: '))
         y=float(input('Tell me your 2nd number: '))
@@ -47,9 +37,6 @@ def main():
         print('After doing factorial of '+str(x)+', We get '+ str(z))
     else:
         print(' Please provide a valid input.Thank You.')
-
-
-#what is in below 5 lines?
 
 if __name__=='__main__':
     c=(input('Tell me your name! '))
